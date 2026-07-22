@@ -87,28 +87,69 @@ ASAN detects ──→ heap-buffer-overflow at decode_uint32
 
 ---
 
-## ASAN Evidence
+## ASAN Evidence (Symbolized)
 
-When the server runs on a Godot 4.4.1 build with AddressSanitizer enabled:
+When the server runs on a Godot 4.4.1 build with AddressSanitizer enabled **and debug symbols**:
 
 ```
-==37832==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x11effc57d4ba
-READ of size 1 at 0x11effc57d4ba thread T0
+=================================================================
+==36508==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x11e45104743a
+READ of size 1 at 0x11e45104743a thread T0
+    #0 0x7ff6e52a5d88 in decode_uint32
+        C:\...\godot-4.4.1\core\io\marshalls.h:172
+    #1 0x7ff6e52ac9e7 in SceneReplicationInterface::on_spawn_receive(int, unsigned char const *, int)
+        C:\...\godot-4.4.1\modules\multiplayer\scene_replication_interface.cpp:590  ← VULNERABILITY
+    #2 0x7ff6e5264f43 in SceneMultiplayer::_process_packet(int, unsigned char const *, int)
+        C:\...\godot-4.4.1\modules\multiplayer\scene_multiplayer.cpp:241
+    #3 0x7ff6e527365e in SceneMultiplayer::poll(void)
+        C:\...\godot-4.4.1\modules\multiplayer\scene_multiplayer.cpp:137
+    #4 0x7ff6e80482b5 in SceneTree::process(double)
+        C:\...\godot-4.4.1\scene\main\scene_tree.cpp:571
+    #5 0x7ff6e3635866 in Main::iteration(void)
+        C:\...\godot-4.4.1\main\main.cpp:4529
+    #6 0x7ff6e3524529 in OS_Windows::run(void)
+        C:\...\godot-4.4.1\platform\windows\os_windows.cpp:2075
+    #7 0x7ff6e34ff340 in widechar_main(int, wchar_t **)
+        C:\...\godot-4.4.1\platform\windows\godot_windows.cpp:96
+    #8 0x7ff6e34fefe7 in _main(void)
+        C:\...\godot-4.4.1\platform\windows\godot_windows.cpp:122
+    #9 0x7ff6e34ff438 in main
+        C:\...\godot-4.4.1\platform\windows\godot_windows.cpp:136
 
-0x11effc57d4ba is located 0 bytes to the right of 42-byte region [0x11effc57d490,0x11effc57d4ba)
+0x11e45104743a is located 0 bytes to the right of 42-byte region
 allocated by thread T0 here:
-    #0 in malloc
+    #0 0x7ff6e35f59b2 in malloc
+        ...\compiler-rt\lib\asan\asan_malloc_win.cpp:124
+    #1 0x7ff6e4251b9b in enet_malloc
+        C:\...\godot-4.4.1\thirdparty\enet\callbacks.c:40
+    #2 0x7ff6e4246255 in enet_packet_create
+        C:\...\godot-4.4.1\thirdparty\enet\packet.c:33
+    #3 0x7ff6e42479b8 in enet_peer_queue_incoming_command
+        C:\...\godot-4.4.1\thirdparty\enet\peer.c:959
+    #4 0x7ff6e424e1f6 in enet_protocol_handle_send_reliable
+        C:\...\godot-4.4.1\thirdparty\enet\protocol.c:462
+    #5 0x7ff6e424d90d in enet_protocol_handle_incoming_commands
+        C:\...\godot-4.4.1\thirdparty\enet\protocol.c:1155
+    #6 0x7ff6e424f62a in enet_protocol_receive_incoming_commands
+        C:\...\godot-4.4.1\thirdparty\enet\protocol.c:1281
+    #7 0x7ff6e424af96 in enet_host_service
+        C:\...\godot-4.4.1\thirdparty\enet\protocol.c:1845
+    #8 0x7ff6e4228462 in ENetConnection::service(int, ...)
+        C:\...\godot-4.4.1\modules\enet\enet_connection.cpp:178
+    #9 0x7ff6e424098e in ENetMultiplayerPeer::poll(void)
+        C:\...\godot-4.4.1\modules\enet\enet_multiplayer_peer.cpp:198
 
 SUMMARY: AddressSanitizer: heap-buffer-overflow
+    C:\...\godot-4.4.1\core\io\marshalls.h:172 in decode_uint32
 Shadow bytes around the buggy address:
-=>0x0425fbaafa90: fa fa 00 00 00 00 00[02]fa fa fd fd fd fd fd fd
-==37832==ABORTING
+=>0x0418dae08e80: fa fa 00 00 00 00 00[02]fa fa fd fd fd fd fd fd
+==36508==ABORTING
 ```
 
 Full logs in `.omo/evidence/`:
-- `server-v3-err.txt` — full ASAN report
+- `server-symbolized-err.txt` — **full symbolized ASAN report** with complete call chain
+- `server-v3-err.txt` — earlier unsymbolized ASAN report
 - `task-9-godot-oob-spawn-exploit.md` — overflow math analysis
-- `task-8-server.log` — server lifecycle (resource import errors pre-crash)
 
 ---
 

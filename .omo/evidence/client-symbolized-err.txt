@@ -1,0 +1,34 @@
+ERROR: Parent node is busy setting up children, `add_child()` failed. Consider using `add_child.call_deferred(child)` instead.
+   at: Node::add_child (scene\main\node.cpp:1657)
+ERROR: Condition "p_child->data.parent != this" is true.
+   at: Node::remove_child (scene\main\node.cpp:1687)
+WARNING: [WRN][@27706][#751637863][netfox::NetworkRollback] Trying to run rollback for ticks 27638 to 27706, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)
+WARNING: [WRN][@27714][#751637863][netfox::NetworkRollback] Trying to run rollback for ticks 27638 to 27714, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)
+WARNING: [WRN][@27722][#751637863][netfox::NetworkRollback] Trying to run rollback for ticks 27638 to 27722, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)
+WARNING: [WRN][@27730][#751637863][netfox::NetworkRollback] Trying to run rollback for ticks 27638 to 27730, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)
+WARNING: [WRN][@27738][#751637863][netfox::NetworkRollback] Trying to run rollback for ticks 27638 to 27738, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)
+WARNING: [WRN][@27746][#751637863][netfox::NetworkRollback] Trying to run rollback for ticks 27638 to 27746, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)
+WARNING: [WRN][@27754][#751637863][netfox::NetworkRollback] Trying to run rollback for ticks 27638 to 27754, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)
+WARNING: [WRN][@27762][#751637863][netfox::NetworkRollback] Trying to run rollback for ticks 27638 to 27762, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)
+WARNING: [WRN][@27770][#751637863][netfox::NetworkRollback] Trying to run rollback for ticks 27638 to 27770, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)
+WARNING: [WRN][@27778][#751637863][netfox::NetworkRollback] Trying to run rollback for ticks 27638 to 27778, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)
+WARNING: [WRN][@27786][#751637863][netfox::NetworkRollback] Trying to run rollback for ticks 27638 to 27786, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)
+WARNING: [WRN][@27794][#751637863][netfox::NetworkRollback] Trying to run rollback for ticks 27638 to 27794, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)
+WARNING: [WRN][@27802][#751637863][netfox::NetworkRollback] Trying to run rollback for ticks 27638 to 27802, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)
+WARNING: [WRN][@27810][#751637863][netfox::NetworkRollback] Trying to run rollback for ticks 27638 to 27810, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)
+WARNING: [WRN][@27818][#751637863][netfox::NetworkRollback] Trying to run rollback for ticks 27638 to 27818, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)

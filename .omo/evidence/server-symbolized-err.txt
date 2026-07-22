@@ -1,0 +1,83 @@
+ERROR: Parent node is busy setting up children, `add_child()` failed. Consider using `add_child.call_deferred(child)` instead.
+   at: Node::add_child (scene\main\node.cpp:1657)
+ERROR: Condition "p_child->data.parent != this" is true.
+   at: Node::remove_child (scene\main\node.cpp:1687)
+ERROR: The rpc node checksum failed. Make sure to have the same methods on both nodes. Node path: Game/ExploitSpawner
+   at: SceneCacheInterface::process_simplify_path (modules\multiplayer\scene_cache_interface.cpp:121)
+=================================================================
+==36508==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x11e45104743a at pc 0x7ff6e52a5d89 bp 0x00aaec9fe680 sp 0x00aaec9fe688
+READ of size 1 at 0x11e45104743a thread T0
+    #0 0x7ff6e52a5d88 in decode_uint32 C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\core\io\marshalls.h:172
+    #1 0x7ff6e52ac9e7 in SceneReplicationInterface::on_spawn_receive(int, unsigned char const *, int) C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\modules\multiplayer\scene_replication_interface.cpp:590
+    #2 0x7ff6e5264f43 in SceneMultiplayer::_process_packet(int, unsigned char const *, int) C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\modules\multiplayer\scene_multiplayer.cpp:241
+    #3 0x7ff6e527365e in SceneMultiplayer::poll(void) C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\modules\multiplayer\scene_multiplayer.cpp:137
+    #4 0x7ff6e80482b5 in SceneTree::process(double) C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\scene\main\scene_tree.cpp:571
+    #5 0x7ff6e3635866 in Main::iteration(void) C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\main\main.cpp:4529
+    #6 0x7ff6e3524529 in OS_Windows::run(void) C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\platform\windows\os_windows.cpp:2075
+    #7 0x7ff6e34ff340 in widechar_main(int, wchar_t **) C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\platform\windows\godot_windows.cpp:96
+    #8 0x7ff6e34fefe7 in _main(void) C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\platform\windows\godot_windows.cpp:122
+    #9 0x7ff6e34ff438 in main C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\platform\windows\godot_windows.cpp:136
+    #10 0x7ff6ee24415d in invoke_main D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:102
+    #11 0x7ff6ee24415d in __scrt_common_main_seh D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288
+    #12 0x7ff94bc07373  (C:\Windows\System32\KERNEL32.DLL+0x180017373)
+    #13 0x7ff94dabcc90  (C:\Windows\SYSTEM32\ntdll.dll+0x18004cc90)
+
+0x11e45104743a is located 0 bytes to the right of 42-byte region [0x11e451047410,0x11e45104743a)
+allocated by thread T0 here:
+    #0 0x7ff6e35f59b2 in __sanitizer::BufferedStackTrace::Unwind D:\a\_work\1\s\src\vctools\crt\asan\llvm\compiler-rt\lib\sanitizer_common\sanitizer_stacktrace.h:115
+    #1 0x7ff6e35f59b2 in malloc D:\a\_work\1\s\src\vctools\crt\asan\llvm\compiler-rt\lib\asan\asan_malloc_win.cpp:124
+    #2 0x7ff6e4251b9b in enet_malloc C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\thirdparty\enet\callbacks.c:40
+    #3 0x7ff6e4246255 in enet_packet_create C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\thirdparty\enet\packet.c:33
+    #4 0x7ff6e42479b8 in enet_peer_queue_incoming_command C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\thirdparty\enet\peer.c:959
+    #5 0x7ff6e424e1f6 in enet_protocol_handle_send_reliable C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\thirdparty\enet\protocol.c:462
+    #6 0x7ff6e424d90d in enet_protocol_handle_incoming_commands C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\thirdparty\enet\protocol.c:1155
+    #7 0x7ff6e424f62a in enet_protocol_receive_incoming_commands C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\thirdparty\enet\protocol.c:1281
+    #8 0x7ff6e424af96 in enet_host_service C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\thirdparty\enet\protocol.c:1845
+    #9 0x7ff6e4228462 in ENetConnection::service(int, struct ENetConnection::Event &) C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\modules\enet\enet_connection.cpp:178
+    #10 0x7ff6e424098e in ENetMultiplayerPeer::poll(void) C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\modules\enet\enet_multiplayer_peer.cpp:198
+    #11 0x7ff6e5272b78 in SceneMultiplayer::poll(void) C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\modules\multiplayer\scene_multiplayer.cpp:75
+    #12 0x7ff6e80482b5 in SceneTree::process(double) C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\scene\main\scene_tree.cpp:571
+    #13 0x7ff6e3635866 in Main::iteration(void) C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\main\main.cpp:4529
+    #14 0x7ff6e3524529 in OS_Windows::run(void) C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\platform\windows\os_windows.cpp:2075
+    #15 0x7ff6e34ff340 in widechar_main(int, wchar_t **) C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\platform\windows\godot_windows.cpp:96
+    #16 0x7ff6e34fefe7 in _main(void) C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\platform\windows\godot_windows.cpp:122
+    #17 0x7ff6e34ff438 in main C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\platform\windows\godot_windows.cpp:136
+    #18 0x7ff6ee24415d in invoke_main D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:102
+    #19 0x7ff6ee24415d in __scrt_common_main_seh D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288
+    #20 0x7ff94bc07373  (C:\Windows\System32\KERNEL32.DLL+0x180017373)
+    #21 0x7ff94dabcc90  (C:\Windows\SYSTEM32\ntdll.dll+0x18004cc90)
+
+SUMMARY: AddressSanitizer: heap-buffer-overflow C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\core\io\marshalls.h:172 in decode_uint32
+Shadow bytes around the buggy address:
+  0x0418dae08e30: fa fa fd fd fd fd fd fa fa fa fa fa fa fa fa fa
+  0x0418dae08e40: fa fa 00 00 00 00 00 00 fa fa fd fd fd fd fd fd
+  0x0418dae08e50: fa fa 00 00 00 00 00 00 fa fa 00 00 00 00 00 00
+  0x0418dae08e60: fa fa fd fd fd fd fd fd fa fa fd fd fd fd fd fa
+  0x0418dae08e70: fa fa 00 00 00 00 00 00 fa fa 00 00 00 00 00 fa
+=>0x0418dae08e80: fa fa 00 00 00 00 00[02]fa fa fd fd fd fd fd fd
+  0x0418dae08e90: fa fa 00 00 00 00 00 00 fa fa fd fd fd fd fd fd
+  0x0418dae08ea0: fa fa fd fd fd fd fd fa fa fa fd fd fd fd fd fd
+  0x0418dae08eb0: fa fa fd fd fd fd fd fa fa fa fd fd fd fd fd fa
+  0x0418dae08ec0: fa fa fd fd fd fd fd fd fa fa fd fd fd fd fd fd
+  0x0418dae08ed0: fa fa fd fd fd fd fd fa fa fa fd fd fd fd fd fd
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+  Shadow gap:              cc
+==36508==ABORTING
