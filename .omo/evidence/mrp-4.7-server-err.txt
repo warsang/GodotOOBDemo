@@ -1,0 +1,28 @@
+ERROR: The rpc node checksum failed. Make sure to have the same methods on both nodes. Node path: Main/Spawner
+   at: process_simplify_path (modules/multiplayer/scene_cache_interface.cpp:121)
+
+================================================================
+CrashHandlerException: Program crashed with signal 11
+Engine version: Godot Engine v4.7.stable.official (5b4e0cb0fd279832bbdd69fed5354d4e5ad26f88)
+Dumping the backtrace. Please include this when reporting the bug on: https://github.com/godotengine/godot/issues
+Load address: 7ff6654c0000
+
+[1] 7ff7a95860e1 (main+40c60e1) - no debug info in PE/COFF executable
+[2] 7ff94dafce45 (ntdll.dll+8ce45) - no debug info in PE/COFF executable
+[3] 7ff94db1296e (ntdll.dll+a296e) - no debug info in PE/COFF executable
+[4] 7ff94dac2553 (ntdll.dll+52553) - no debug info in PE/COFF executable
+[5] 7ff94db1147d (ntdll.dll+a147d) - no debug info in PE/COFF executable
+[6] 7ff7a62413a3 (main+d813a3) - no debug info in PE/COFF executable
+[7] 7ff7a62352bf (main+d752bf) - no debug info in PE/COFF executable
+[8] 7ff7a794badd (main+248badd) - no debug info in PE/COFF executable
+[9] 7ff7a551d43c (main+5d43c) - no debug info in PE/COFF executable
+[10] 7ff7a54c2ef0 (main+2ef0) - no debug info in PE/COFF executable
+[11] 7ff7a5512501 (main+52501) - no debug info in PE/COFF executable
+[12] 7ff7a551253d (main+5253d) - no debug info in PE/COFF executable
+[13] 7ff7a54c10c8 (main+10c8) - no debug info in PE/COFF executable
+[14] 7ff7a54c13f5 (main+13f5) - no debug info in PE/COFF executable
+[15] 7ff94bc07373 (kernel32.dll+17373) - no debug info in PE/COFF executable
+[16] 7ff94dabcc90 (ntdll.dll+4cc90) - no debug info in PE/COFF executable
+[17] -1 (main+-7ff7a54c0001) - no debug info in PE/COFF executable
+-- END OF C++ BACKTRACE --
+================================================================

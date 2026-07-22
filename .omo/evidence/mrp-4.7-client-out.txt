@@ -1,0 +1,8 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+[Client] Connecting...
+[Client] Connected, got server peer
+[Client] SIMPLIFY_PATH: 51 bytes
+[Client] SPAWN: 256 bytes, sync_len=0x40000001
+[Client]   sync_len * 4 overflows uint32: 0x40000001 * 4 = 0x04 (wraps)
+[Client]   Bounds check passes (15 <= 15), but actual copy reads 16 GiB
