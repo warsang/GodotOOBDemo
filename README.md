@@ -1,4 +1,4 @@
-# Godot OOB Spawn Exploit (CVE PoC)
+# Godot OOB Spawn Exploit
 
 **A proof-of-concept demonstrating a heap-buffer-overflow vulnerability in Godot Engine 4.4.1-stable's multiplayer spawn system.**
 
