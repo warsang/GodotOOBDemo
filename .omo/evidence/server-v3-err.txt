@@ -1,0 +1,80 @@
+ERROR: Parent node is busy setting up children, `add_child()` failed. Consider using `add_child.call_deferred(child)` instead.
+   at: Node::add_child (scene\main\node.cpp:1657)
+ERROR: Condition "p_child->data.parent != this" is true.
+   at: Node::remove_child (scene\main\node.cpp:1687)
+ERROR: The rpc node checksum failed. Make sure to have the same methods on both nodes. Node path: Game/ExploitSpawner
+   at: SceneCacheInterface::process_simplify_path (modules\multiplayer\scene_cache_interface.cpp:121)
+=================================================================
+==37832==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x11effc57d4ba at pc 0x7ff69fe45d89 bp 0x004b023fe710 sp 0x004b023fe718
+READ of size 1 at 0x11effc57d4ba thread T0
+    #0 0x7ff69fe45d88 in __asan_new_nothrow (C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\bin\godot.windows.editor.x86_64.san.exe+0x141dc5d88)
+    #1 0x7ff69fe4c9e7 in __asan_new_nothrow (C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\bin\godot.windows.editor.x86_64.san.exe+0x141dcc9e7)
+    #2 0x7ff69fe04f43 in __asan_new_nothrow (C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\bin\godot.windows.editor.x86_64.san.exe+0x141d84f43)
+    #3 0x7ff69fe1365e in __asan_new_nothrow (C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\bin\godot.windows.editor.x86_64.san.exe+0x141d9365e)
+    #4 0x7ff6a2be82b5 in __asan_new_nothrow (C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\bin\godot.windows.editor.x86_64.san.exe+0x144b682b5)
+    #5 0x7ff69e1d5866 in __asan_new_nothrow (C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\bin\godot.windows.editor.x86_64.san.exe+0x140155866)
+    #6 0x7ff69e0c4529  (C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\bin\godot.windows.editor.x86_64.san.exe+0x140044529)
+    #7 0x7ff69e09f340  (C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\bin\godot.windows.editor.x86_64.san.exe+0x14001f340)
+    #8 0x7ff69e09efe7  (C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\bin\godot.windows.editor.x86_64.san.exe+0x14001efe7)
+    #9 0x7ff69e09f438  (C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\bin\godot.windows.editor.x86_64.san.exe+0x14001f438)
+    #10 0x7ff6a8de415d in __ubsan_handle_function_type_mismatch_v1_abort (C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\bin\godot.windows.editor.x86_64.san.exe+0x14ad6415d)
+    #11 0x7ff94bc07373  (C:\Windows\System32\KERNEL32.DLL+0x180017373)
+    #12 0x7ff94dabcc90  (C:\Windows\SYSTEM32\ntdll.dll+0x18004cc90)
+
+0x11effc57d4ba is located 0 bytes to the right of 42-byte region [0x11effc57d490,0x11effc57d4ba)
+allocated by thread T0 here:
+    #0 0x7ff69e1959b2 in malloc (C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\bin\godot.windows.editor.x86_64.san.exe+0x1401159b2)
+    #1 0x7ff69edf1b9b in __asan_new_nothrow (C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\bin\godot.windows.editor.x86_64.san.exe+0x140d71b9b)
+    #2 0x7ff69ede6255 in __asan_new_nothrow (C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\bin\godot.windows.editor.x86_64.san.exe+0x140d66255)
+    #3 0x7ff69ede79b8 in __asan_new_nothrow (C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\bin\godot.windows.editor.x86_64.san.exe+0x140d679b8)
+    #4 0x7ff69edee1f6 in __asan_new_nothrow (C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\bin\godot.windows.editor.x86_64.san.exe+0x140d6e1f6)
+    #5 0x7ff69eded90d in __asan_new_nothrow (C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\bin\godot.windows.editor.x86_64.san.exe+0x140d6d90d)
+    #6 0x7ff69edef62a in __asan_new_nothrow (C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\bin\godot.windows.editor.x86_64.san.exe+0x140d6f62a)
+    #7 0x7ff69edeaf96 in __asan_new_nothrow (C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\bin\godot.windows.editor.x86_64.san.exe+0x140d6af96)
+    #8 0x7ff69edc8462 in __asan_new_nothrow (C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\bin\godot.windows.editor.x86_64.san.exe+0x140d48462)
+    #9 0x7ff69ede098e in __asan_new_nothrow (C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\bin\godot.windows.editor.x86_64.san.exe+0x140d6098e)
+    #10 0x7ff69fe12b78 in __asan_new_nothrow (C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\bin\godot.windows.editor.x86_64.san.exe+0x141d92b78)
+    #11 0x7ff6a2be82b5 in __asan_new_nothrow (C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\bin\godot.windows.editor.x86_64.san.exe+0x144b682b5)
+    #12 0x7ff69e1d5866 in __asan_new_nothrow (C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\bin\godot.windows.editor.x86_64.san.exe+0x140155866)
+    #13 0x7ff69e0c4529  (C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\bin\godot.windows.editor.x86_64.san.exe+0x140044529)
+    #14 0x7ff69e09f340  (C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\bin\godot.windows.editor.x86_64.san.exe+0x14001f340)
+    #15 0x7ff69e09efe7  (C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\bin\godot.windows.editor.x86_64.san.exe+0x14001efe7)
+    #16 0x7ff69e09f438  (C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\bin\godot.windows.editor.x86_64.san.exe+0x14001f438)
+    #17 0x7ff6a8de415d in __ubsan_handle_function_type_mismatch_v1_abort (C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\bin\godot.windows.editor.x86_64.san.exe+0x14ad6415d)
+    #18 0x7ff94bc07373  (C:\Windows\System32\KERNEL32.DLL+0x180017373)
+    #19 0x7ff94dabcc90  (C:\Windows\SYSTEM32\ntdll.dll+0x18004cc90)
+
+SUMMARY: AddressSanitizer: heap-buffer-overflow (C:\Users\Someone\Documents\GODOT Bug demo\godot-4.4.1\bin\godot.windows.editor.x86_64.san.exe+0x141dc5d88) in __asan_new_nothrow
+Shadow bytes around the buggy address:
+  0x0425fbaafa40: fa fa fa fa fa fa fa fa fa fa 00 00 00 00 00 00
+  0x0425fbaafa50: fa fa fa fa fa fa fa fa fa fa 00 00 00 00 00 00
+  0x0425fbaafa60: fa fa 00 00 00 00 00 00 fa fa 00 00 00 00 00 00
+  0x0425fbaafa70: fa fa 00 00 00 00 00 00 fa fa fd fd fd fd fd fd
+  0x0425fbaafa80: fa fa 00 00 00 00 00 fa fa fa 00 00 00 00 00 00
+=>0x0425fbaafa90: fa fa 00 00 00 00 00[02]fa fa fd fd fd fd fd fd
+  0x0425fbaafaa0: fa fa fd fd fd fd fd fa fa fa 00 00 00 00 00 00
+  0x0425fbaafab0: fa fa fd fd fd fd fd fd fa fa fd fd fd fd fd fa
+  0x0425fbaafac0: fa fa fd fd fd fd fd fd fa fa fd fd fd fd fd fa
+  0x0425fbaafad0: fa fa fd fd fd fd fd fa fa fa fd fd fd fd fd fa
+  0x0425fbaafae0: fa fa fd fd fd fd fd fd fa fa fd fd fd fd fd fa
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+  Shadow gap:              cc
+==37832==ABORTING

@@ -1,0 +1,46 @@
+ERROR: Parent node is busy setting up children, `add_child()` failed. Consider using `add_child.call_deferred(child)` instead.
+   at: Node::add_child (scene\main\node.cpp:1657)
+ERROR: Condition "p_child->data.parent != this" is true.
+   at: Node::remove_child (scene\main\node.cpp:1687)
+WARNING: [WRN][@563][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 563, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)
+WARNING: [WRN][@568][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 568, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)
+WARNING: [WRN][@572][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 572, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)
+WARNING: [WRN][@577][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 577, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)
+WARNING: [WRN][@583][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 583, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)
+WARNING: [WRN][@588][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 588, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)
+WARNING: [WRN][@594][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 594, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)
+WARNING: [WRN][@600][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 600, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)
+WARNING: [WRN][@608][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 608, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)
+WARNING: [WRN][@614][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 614, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)
+WARNING: [WRN][@619][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 619, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)
+WARNING: [WRN][@624][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 624, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)
+WARNING: [WRN][@629][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 629, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)
+WARNING: [WRN][@634][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 634, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)
+WARNING: [WRN][@640][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 640, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)
+WARNING: [WRN][@648][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 648, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)
+WARNING: [WRN][@655][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 655, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)
+WARNING: [WRN][@661][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 661, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)
+WARNING: [WRN][@666][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 666, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)
+WARNING: [WRN][@672][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 672, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)
+WARNING: [WRN][@678][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 678, past the history limit of 64
+   at: VariantUtilityFunctions::push_warning (core\variant\variant_utility.cpp:1118)

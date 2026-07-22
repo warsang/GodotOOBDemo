@@ -1,0 +1,7 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://giidcej8oij7"]
+
+[ext_resource type="FontFile" uid="uid://cf21bpdnncupb" path="res://asssets/ui/SuperNormal.ttf" id="1_s73yc"]
+
+[resource]
+default_font = ExtResource("1_s73yc")
+Button/font_sizes/font_size = 48

@@ -1,0 +1,10 @@
+# Godot engine source builds (massive, not part of the POC)
+/godot/
+/godot-4.4.1/
+
+# Graymatter daemon state
+.graymatter/
+
+# OpenCode working state (plans preserved, runtime state excluded)
+.omo/boulder.json
+.omo/run-continuation/

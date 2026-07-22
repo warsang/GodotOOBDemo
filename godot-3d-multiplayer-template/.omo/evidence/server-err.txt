@@ -1,0 +1,196 @@
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://scripts/player_input.gd:8)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://scripts/player_input.gd:18)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://scripts/camera_input.gd:16)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://scripts/camera_input.gd:45)
+SCRIPT ERROR: Parse Error: Identifier "NetworkRollback" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox.extras/state-machine/rewindable-state-machine.gd:79)
+SCRIPT ERROR: Parse Error: Identifier "NetworkRollback" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox.extras/state-machine/rewindable-state-machine.gd:84)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox.extras/state-machine/rewindable-state-machine.gd:95)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox.extras/state-machine/rewindable-state-machine.gd:136)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox.extras/state-machine/rewindable-state-machine.gd:137)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+   at: GDScript::reload (res://scripts/player.gd:0)
+ERROR: Failed to load script "res://scripts/player.gd" with error "Compilation failed".
+   at: ResourceFormatLoaderGDScript::load (modules\gdscript\gdscript.cpp:3022)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:115)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:116)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:117)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:118)
+SCRIPT ERROR: Parse Error: Identifier "NetworkRollback" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:138)
+SCRIPT ERROR: Parse Error: Identifier "NetworkRollback" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:212)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:234)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:236)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:240)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:241)
+SCRIPT ERROR: Parse Error: Identifier "NetworkRollback" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:242)
+SCRIPT ERROR: Parse Error: Identifier "NetworkRollback" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:243)
+SCRIPT ERROR: Parse Error: Identifier "NetworkRollback" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:244)
+SCRIPT ERROR: Parse Error: Identifier "NetworkRollback" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:245)
+SCRIPT ERROR: Parse Error: Identifier "NetworkRollback" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:246)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:249)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:250)
+SCRIPT ERROR: Parse Error: Identifier "NetworkRollback" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:251)
+SCRIPT ERROR: Parse Error: Identifier "NetworkRollback" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:252)
+SCRIPT ERROR: Parse Error: Identifier "NetworkRollback" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:253)
+SCRIPT ERROR: Parse Error: Identifier "NetworkRollback" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:254)
+SCRIPT ERROR: Parse Error: Identifier "NetworkRollback" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:255)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:286)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:288)
+SCRIPT ERROR: Parse Error: Identifier "NetworkRollback" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:302)
+SCRIPT ERROR: Parse Error: Identifier "NetworkRollback" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:305)
+SCRIPT ERROR: Parse Error: Identifier "NetworkRollback" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:329)
+SCRIPT ERROR: Parse Error: Identifier "NetworkRollback" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:353)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:357)
+SCRIPT ERROR: Parse Error: Identifier "NetworkRollback" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:357)
+SCRIPT ERROR: Parse Error: Identifier "NetworkRollback" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:381)
+SCRIPT ERROR: Parse Error: Identifier "NetworkPerformance" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:385)
+SCRIPT ERROR: Parse Error: Identifier "NetworkPerformance" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:386)
+SCRIPT ERROR: Parse Error: Identifier "NetworkPerformance" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:393)
+SCRIPT ERROR: Parse Error: Identifier "NetworkPerformance" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:394)
+SCRIPT ERROR: Parse Error: Identifier "NetworkPerformance" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:397)
+SCRIPT ERROR: Parse Error: Identifier "NetworkPerformance" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:402)
+SCRIPT ERROR: Parse Error: Identifier "NetworkPerformance" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:409)
+SCRIPT ERROR: Parse Error: Identifier "NetworkPerformance" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:419)
+SCRIPT ERROR: Parse Error: Identifier "NetworkPerformance" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:423)
+SCRIPT ERROR: Parse Error: Identifier "NetworkPerformance" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:439)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:442)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:445)
+SCRIPT ERROR: Parse Error: Identifier "NetworkRollback" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:445)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:457)
+SCRIPT ERROR: Parse Error: Identifier "NetworkRollback" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:461)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:462)
+SCRIPT ERROR: Parse Error: Identifier "NetworkRollback" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:471)
+SCRIPT ERROR: Parse Error: Identifier "NetworkRollback" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:474)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:482)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:484)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:552)
+SCRIPT ERROR: Parse Error: Identifier "NetworkRollback" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:552)
+SCRIPT ERROR: Parse Error: Identifier "NetworkRollback" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:554)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:574)
+SCRIPT ERROR: Parse Error: Identifier "NetworkRollback" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:574)
+SCRIPT ERROR: Parse Error: Identifier "NetworkRollback" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:576)
+SCRIPT ERROR: Parse Error: Identifier "NetworkRollback" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:590)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:599)
+SCRIPT ERROR: Parse Error: Identifier "NetworkRollback" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:599)
+SCRIPT ERROR: Parse Error: Identifier "NetworkRollback" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:601)
+SCRIPT ERROR: Parse Error: Identifier "NetworkRollback" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:627)
+ERROR: Failed to load script "res://addons/netfox/rollback/rollback-synchronizer.gd" with error "Parse error".
+   at: ResourceFormatLoaderGDScript::load (modules\gdscript\gdscript.cpp:3022)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/tick-interpolator.gd:110)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/tick-interpolator.gd:111)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/tick-interpolator.gd:114)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/tick-interpolator.gd:115)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/tick-interpolator.gd:139)
+ERROR: Failed to load script "res://addons/netfox/tick-interpolator.gd" with error "Parse error".
+   at: ResourceFormatLoaderGDScript::load (modules\gdscript\gdscript.cpp:3022)
+SCRIPT ERROR: Parse Error: Could not resolve class "MovementState".
+   at: GDScript::reload (res://scripts/states/movement/idle_state.gd:1)
+ERROR: Failed to load script "res://scripts/states/movement/idle_state.gd" with error "Parse error".
+   at: ResourceFormatLoaderGDScript::load (modules\gdscript\gdscript.cpp:3022)
+SCRIPT ERROR: Parse Error: Could not resolve class "MovementState".
+   at: GDScript::reload (res://scripts/states/movement/move_state.gd:1)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://scripts/states/movement/move_state.gd:38)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://scripts/states/movement/move_state.gd:40)
+ERROR: Failed to load script "res://scripts/states/movement/move_state.gd" with error "Parse error".
+   at: ResourceFormatLoaderGDScript::load (modules\gdscript\gdscript.cpp:3022)
+SCRIPT ERROR: Parse Error: Could not resolve class "MovementState".
+   at: GDScript::reload (res://scripts/states/movement/jump_state.gd:1)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://scripts/states/movement/jump_state.gd:37)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://scripts/states/movement/jump_state.gd:39)
+ERROR: Failed to load script "res://scripts/states/movement/jump_state.gd" with error "Parse error".
+   at: ResourceFormatLoaderGDScript::load (modules\gdscript\gdscript.cpp:3022)
+SCRIPT ERROR: Parse Error: Could not resolve class "MovementState".
+   at: GDScript::reload (res://scripts/states/movement/fall_state.gd:1)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://scripts/states/movement/fall_state.gd:38)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://scripts/states/movement/fall_state.gd:40)
+ERROR: Failed to load script "res://scripts/states/movement/fall_state.gd" with error "Parse error".
+   at: ResourceFormatLoaderGDScript::load (modules\gdscript\gdscript.cpp:3022)
+SCRIPT ERROR: Parse Error: Identifier "NetworkTime" not declared in the current scope.
+   at: GDScript::reload (res://scripts/network/network_manager.gd:78)
+ERROR: Failed to load script "res://scripts/network/network_manager.gd" with error "Parse error".
+   at: ResourceFormatLoaderGDScript::load (modules\gdscript\gdscript.cpp:3022)
+ERROR: Failed to instantiate an autoload, script 'res://scripts/network/network_manager.gd' does not inherit from 'Node'.
+   at: Main::start (main\main.cpp:4075)
+SCRIPT ERROR: Invalid call. Nonexistent function 'host_game' in base 'Nil'.
+   at: _ready (res://scripts/network/auto_connect.gd:7)

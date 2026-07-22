@@ -1,0 +1,27 @@
+Godot Engine v4.4.1.stable.custom_build.49a5bc7b6 (2025-03-25 23:11:16 UTC) - https://godotengine.org
+
+[DBG][@0][#1][netfox::NetworkPerformance] Network performance enabled, registering performance monitors
+Auto-connect: Starting server...
+Host game
+Show loading
+NetworkManager: Loading game scene...
+Main menu ready...
+MultiplayerManager ready!
+Adding Host player to game...
+Adding player to game: 1
+Hide loading
+[DBG][@147011][#1][netfox::NetworkTime] Game stalled for 10885.8610s, assuming it was a pause
+[DBG][@147011][#1][netfox::NetworkTime] Game stalled for 1.0800s, assuming it was a pause
+Peer connected: 648039288
+Adding player to game: 648039288
+[DBG][@160039][#1][netfox::NetworkTime] Game stalled for 1.1640s, assuming it was a pause
+[DBG][@160039][#1][netfox::NetworkTimeSynchronizer] Requested initial timestamp @ 1784664344.0840s raw time
+[DBG][@160047][#1][netfox::NetworkTime] Peer #648039288 is now on time!
+Peer disconnected: 648039288
+Removing player from game: 648039288
+[DBG][@430442][#1][netfox::NetworkTime] Game stalled for 10886.9890s, assuming it was a pause
+[DBG][@430442][#1][netfox::NetworkTime] Game stalled for 1.0990s, assuming it was a pause
+[DBG][@488097][#1][netfox::NetworkTime] Game stalled for 10888.1010s, assuming it was a pause
+[DBG][@488097][#1][netfox::NetworkTime] Game stalled for 1.3780s, assuming it was a pause
+[DBG][@545667][#1][netfox::NetworkTime] Game stalled for 10887.9650s, assuming it was a pause
+[DBG][@545667][#1][netfox::NetworkTime] Game stalled for 1.2160s, assuming it was a pause

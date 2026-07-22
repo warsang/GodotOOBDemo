@@ -1,0 +1,16 @@
+Godot Engine v4.4.1.stable.custom_build.49a5bc7b6 (2025-03-25 23:11:16 UTC) - https://godotengine.org
+
+[DBG][@0][#1][netfox::NetworkPerformance] Network performance enabled, registering performance monitors
+Auto-connect: Starting server...
+Host game
+Show loading
+NetworkManager: Loading game scene...
+Main menu ready...
+MultiplayerManager ready!
+Adding Host player to game...
+Adding player to game: 1
+Hide loading
+Peer connected: 501113970
+Adding player to game: 501113970
+[DBG][@492][#1][netfox::NetworkTimeSynchronizer] Requested initial timestamp @ 1784710947.0010s raw time
+[DBG][@493][#1][netfox::NetworkTime] Peer #501113970 is now on time!

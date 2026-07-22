@@ -1,0 +1,12 @@
+ERROR: Parent node is busy setting up children, `add_child()` failed. Consider using `add_child.call_deferred(child)` instead.
+   at: Node::add_child (scene\main\node.cpp:1657)
+ERROR: Condition "p_child->data.parent != this" is true.
+   at: Node::remove_child (scene\main\node.cpp:1687)
+ERROR: Node not found: "ExploitSpawner" (relative to "/root").
+   at: Node::get_node (scene\main\node.cpp:1878)
+ERROR: Parameter "node" is null.
+   at: SceneCacheInterface::process_simplify_path (modules\multiplayer\scene_cache_interface.cpp:118)
+ERROR: ID 3735928559 not found in cache of peer 648039288.
+   at: SceneCacheInterface::get_cached_object (modules\multiplayer\scene_cache_interface.cpp:282)
+ERROR: Parameter "spawner" is null.
+   at: SceneReplicationInterface::on_spawn_receive (modules\multiplayer\scene_replication_interface.cpp:578)
